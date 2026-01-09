@@ -6,16 +6,16 @@ description: |-
 
   The token can be used to authenticate with services that support OIDC tokens, such as Google Cloud, AWS, Azure or others.
   This allows secure, token-based authentication without the need to manage long-lived credentials.
-website: https://github.com/bitrise-steplib/bitrise-step-get-identity-token
-source_code_url: https://github.com/bitrise-steplib/bitrise-step-get-identity-token
-support_url: https://github.com/bitrise-steplib/bitrise-step-get-identity-token/issues
+website: https://github.com/naveen-bitrise/bitrise-step-get-identity-token
+source_code_url: https://github.com/naveen-bitrise/bitrise-step-get-identity-token
+support_url: https://github.com/naveen-bitrise/bitrise-step-get-identity-token/issues
 
 type_tags:
 - utility
 
 toolkit:
   go:
-    package_name: github.com/bitrise-steplib/bitrise-step-get-identity-token
+    package_name: github.com/naveen-bitrise/bitrise-step-get-identity-token
 
 inputs:
 - audience:

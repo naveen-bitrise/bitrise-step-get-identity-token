@@ -8,7 +8,7 @@ import (
 	"github.com/bitrise-io/go-utils/v2/command"
 	"github.com/bitrise-io/go-utils/v2/env"
 	"github.com/bitrise-io/go-utils/v2/log"
-	"github.com/bitrise-steplib/bitrise-step-get-identity-token/step/mocks"
+	"github.com/naveen-bitrise/bitrise-step-get-identity-token/step/mocks"
 	"github.com/stretchr/testify/assert"
 )
 

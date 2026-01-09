@@ -1,4 +1,4 @@
-module github.com/bitrise-steplib/bitrise-step-get-identity-token
+module github.com/naveen-bitrise/bitrise-step-get-identity-token
 
 go 1.18
 

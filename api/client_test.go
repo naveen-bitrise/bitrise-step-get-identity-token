@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/bitrise-io/go-utils/v2/log"
-	"github.com/bitrise-steplib/bitrise-step-get-identity-token/api/mocks"
+	"github.com/naveen-bitrise/bitrise-step-get-identity-token/api/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )
