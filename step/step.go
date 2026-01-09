@@ -71,9 +71,9 @@ func (r TokenFetcher) Run(config Config) (Result, error) {
 		r.logger.Debugf("  subject: %v", claims["sub"])
 		r.logger.Debugf("  issuer: %v", claims["iss"])
 		r.logger.Debugf("")
-		r.logger.Debugf("All claims (exact keys):")
+		r.logger.Debugf("All claims (exact keys with types):")
 		for key, value := range claims {
-			r.logger.Debugf("  %q: %v", key, value)
+			r.logger.Debugf("  %q: %v (type: %T)", key, value, value)
 		}
 	} else {
 		r.logger.Warnf("Failed to decode token claims: %s", err)
